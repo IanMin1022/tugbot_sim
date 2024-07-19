@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(rf2o_laser_odometry)
+project(tugbot_odom)
 
 
 if(NOT CMAKE_CXX_STANDARD)
@@ -26,7 +26,7 @@ find_package(eigen3_cmake_module REQUIRED)
 find_package(Eigen3 REQUIRED)
 
 
-set(EXECUTABLE_NAME "rf2o_laser_odometry_node")
+set(EXECUTABLE_NAME "tugbot_odometry_node")
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations

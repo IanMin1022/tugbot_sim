@@ -1,1 +1,0 @@
-/home/soda/tugbot_ws/src/tugbot_navigation/launch/navigation.launch.py

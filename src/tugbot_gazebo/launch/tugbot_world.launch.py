@@ -29,7 +29,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
             
     pkg_ros_description = get_package_share_directory('tugbot_description')
-    pkg_ros_odom = get_package_share_directory('rf2o_laser_odometry')
+    pkg_ros_odom = get_package_share_directory('tugbot_odom')
     pkg_ros_gz_sim = get_package_share_directory('ros_gz_sim')
     sdf_path = os.path.join(pkg_ros_description, 'sdf', 'tugbot_world.sdf')
     urdf_path = os.path.join(pkg_ros_description, 'urdf/model.urdf.xacro')
@@ -79,7 +79,7 @@ def generate_launch_description():
         arguments=[urdf_path]
     )
     
-    odom = IncludeLaunchDescription(PythonLaunchDescriptionSource([odom_path, '/rf2o_laser_odometry.launch.py']))
+    odom = IncludeLaunchDescription(PythonLaunchDescriptionSource([odom_path, '/odometry.launch.py']))
 
     return LaunchDescription([        
         DeclareLaunchArgument(

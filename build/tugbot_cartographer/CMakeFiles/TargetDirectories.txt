@@ -1,9 +1,0 @@
-/home/soda/tugbot_ws/build/tugbot_cartographer/CMakeFiles/uninstall.dir
-/home/soda/tugbot_ws/build/tugbot_cartographer/CMakeFiles/tugbot_cartographer_uninstall.dir
-/home/soda/tugbot_ws/build/tugbot_cartographer/CMakeFiles/test.dir
-/home/soda/tugbot_ws/build/tugbot_cartographer/CMakeFiles/edit_cache.dir
-/home/soda/tugbot_ws/build/tugbot_cartographer/CMakeFiles/rebuild_cache.dir
-/home/soda/tugbot_ws/build/tugbot_cartographer/CMakeFiles/list_install_components.dir
-/home/soda/tugbot_ws/build/tugbot_cartographer/CMakeFiles/install.dir
-/home/soda/tugbot_ws/build/tugbot_cartographer/CMakeFiles/install/local.dir
-/home/soda/tugbot_ws/build/tugbot_cartographer/CMakeFiles/install/strip.dir

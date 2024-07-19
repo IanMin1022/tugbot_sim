@@ -15,7 +15,7 @@
 * Modifications: Jeremie Deray & (see contributons on github)
 ******************************************************************************************** */
 
-#include "rf2o_laser_odometry/CLaserOdometry2DNode.hpp"
+#include "laser_odometry/CLaserOdometry2DNode.hpp"
 
 using namespace rf2o;
 

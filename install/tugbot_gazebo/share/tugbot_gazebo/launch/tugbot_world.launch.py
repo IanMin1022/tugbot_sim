@@ -1,1 +1,0 @@
-/home/soda/tugbot_ws/src/tugbot_gazebo/launch/tugbot_world.launch.py

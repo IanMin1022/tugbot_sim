@@ -1,1 +1,0 @@
-/home/soda/tugbot_ws/build/tugbot_navigation/ament_cmake_core/tugbot_navigationConfig.cmake
