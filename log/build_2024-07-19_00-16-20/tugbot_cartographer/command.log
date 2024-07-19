@@ -1,0 +1,6 @@
+Invoking command in '/home/soda/tugbot_ws/build/tugbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_cartographer
+Invoked command in '/home/soda/tugbot_ws/build/tugbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_cartographer
+Invoking command in '/home/soda/tugbot_ws/build/tugbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_cartographer -- -j8 -l8
+Invoked command in '/home/soda/tugbot_ws/build/tugbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_cartographer -- -j8 -l8
+Invoking command in '/home/soda/tugbot_ws/build/tugbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_cartographer
+Invoked command in '/home/soda/tugbot_ws/build/tugbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_cartographer

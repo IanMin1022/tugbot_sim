@@ -1,0 +1,9 @@
+/home/soda/tugbot_ws/build/tugbot_navigation/CMakeFiles/uninstall.dir
+/home/soda/tugbot_ws/build/tugbot_navigation/CMakeFiles/tugbot_navigation_uninstall.dir
+/home/soda/tugbot_ws/build/tugbot_navigation/CMakeFiles/test.dir
+/home/soda/tugbot_ws/build/tugbot_navigation/CMakeFiles/edit_cache.dir
+/home/soda/tugbot_ws/build/tugbot_navigation/CMakeFiles/rebuild_cache.dir
+/home/soda/tugbot_ws/build/tugbot_navigation/CMakeFiles/list_install_components.dir
+/home/soda/tugbot_ws/build/tugbot_navigation/CMakeFiles/install.dir
+/home/soda/tugbot_ws/build/tugbot_navigation/CMakeFiles/install/local.dir
+/home/soda/tugbot_ws/build/tugbot_navigation/CMakeFiles/install/strip.dir

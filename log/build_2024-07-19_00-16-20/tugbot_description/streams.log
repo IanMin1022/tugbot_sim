@@ -1,0 +1,67 @@
+[0.040s] Invoking command in '/home/soda/tugbot_ws/build/tugbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_description
+[0.165s] -- The C compiler identification is GNU 11.4.0
+[0.280s] -- The CXX compiler identification is GNU 11.4.0
+[0.297s] -- Detecting C compiler ABI info
+[0.476s] -- Detecting C compiler ABI info - done
+[0.486s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.487s] -- Detecting C compile features
+[0.503s] -- Detecting C compile features - done
+[0.512s] -- Detecting CXX compiler ABI info
+[0.708s] -- Detecting CXX compiler ABI info - done
+[0.727s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.727s] -- Detecting CXX compile features
+[0.728s] -- Detecting CXX compile features - done
+[0.732s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.753s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.910s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.959s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.196s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.197s] -- Added test 'lint_cmake' to check CMake code style
+[3.198s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.201s] -- Added test 'xmllint' to check XML markup files
+[3.203s] -- Configuring done
+[3.214s] -- Generating done
+[3.217s] -- Build files have been written to: /home/soda/tugbot_ws/build/tugbot_description
+[3.235s] Invoked command in '/home/soda/tugbot_ws/build/tugbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_description
+[3.236s] Invoking command in '/home/soda/tugbot_ws/build/tugbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_description -- -j8 -l8
+[3.319s] Invoked command in '/home/soda/tugbot_ws/build/tugbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_description -- -j8 -l8
+[3.379s] Invoking command in '/home/soda/tugbot_ws/build/tugbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_description
+[3.401s] -- Install configuration: ""
+[3.401s] -- Execute custom install script
+[3.402s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/launch/model.launch.py
+[3.418s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/rviz/model.rviz
+[3.436s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/rviz/simulator.rviz
+[3.453s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/urdf/model.config
+[3.468s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/urdf/model.sdf
+[3.499s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/urdf/model.urdf.xacro
+[3.515s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/urdf/thumbnails/1.png
+[3.533s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/sdf/tugbot_world.sdf
+[3.553s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/meshes/VLP16_base_1.dae
+[3.573s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/meshes/VLP16_base_2.dae
+[3.594s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/meshes/VLP16_scan.dae
+[3.622s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/meshes/base/logo-new.png
+[3.647s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/meshes/base/movai-logo.png
+[3.662s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/meshes/base/movai_logo.dae
+[3.681s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/meshes/base/tugbot_simp.dae
+[3.702s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/meshes/base/tugbot_simp.stl
+[3.720s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/meshes/gripper2/gripper2.dae
+[3.748s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/meshes/gripper2/gripper_hand.stl
+[3.767s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/meshes/light_link/light.stl
+[3.791s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/meshes/light_link/light_led.stl
+[3.809s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/meshes/wheel/wheel.dae
+[3.825s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/ament_index/resource_index/package_run_dependencies/tugbot_description
+[3.844s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/ament_index/resource_index/parent_prefix_path/tugbot_description
+[3.861s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/environment/ament_prefix_path.sh
+[3.878s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/environment/ament_prefix_path.dsv
+[3.897s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/environment/path.sh
+[3.913s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/environment/path.dsv
+[3.928s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/local_setup.bash
+[3.946s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/local_setup.sh
+[3.960s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/local_setup.zsh
+[3.977s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/local_setup.dsv
+[4.000s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/package.dsv
+[4.016s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/ament_index/resource_index/packages/tugbot_description
+[4.032s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/cmake/tugbot_descriptionConfig.cmake
+[4.049s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/cmake/tugbot_descriptionConfig-version.cmake
+[4.065s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/package.xml
+[4.098s] Invoked command in '/home/soda/tugbot_ws/build/tugbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_description

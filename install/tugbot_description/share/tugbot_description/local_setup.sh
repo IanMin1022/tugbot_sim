@@ -1,0 +1,1 @@
+/home/soda/tugbot_ws/build/tugbot_description/ament_cmake_environment_hooks/local_setup.sh

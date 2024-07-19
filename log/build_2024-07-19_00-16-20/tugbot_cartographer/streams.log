@@ -1,0 +1,49 @@
+[0.039s] Invoking command in '/home/soda/tugbot_ws/build/tugbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_cartographer
+[0.166s] -- The C compiler identification is GNU 11.4.0
+[0.290s] -- The CXX compiler identification is GNU 11.4.0
+[0.312s] -- Detecting C compiler ABI info
+[0.465s] -- Detecting C compiler ABI info - done
+[0.471s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.472s] -- Detecting C compile features
+[0.472s] -- Detecting C compile features - done
+[0.477s] -- Detecting CXX compiler ABI info
+[0.730s] -- Detecting CXX compiler ABI info - done
+[0.740s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.740s] -- Detecting CXX compile features
+[0.741s] -- Detecting CXX compile features - done
+[0.744s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.639s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.822s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.868s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.089s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.091s] -- Added test 'lint_cmake' to check CMake code style
+[3.093s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.096s] -- Added test 'xmllint' to check XML markup files
+[3.103s] -- Configuring done
+[3.110s] -- Generating done
+[3.112s] -- Build files have been written to: /home/soda/tugbot_ws/build/tugbot_cartographer
+[3.127s] Invoked command in '/home/soda/tugbot_ws/build/tugbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_cartographer
+[3.128s] Invoking command in '/home/soda/tugbot_ws/build/tugbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_cartographer -- -j8 -l8
+[3.223s] Invoked command in '/home/soda/tugbot_ws/build/tugbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_cartographer -- -j8 -l8
+[3.281s] Invoking command in '/home/soda/tugbot_ws/build/tugbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_cartographer
+[3.299s] -- Install configuration: ""
+[3.301s] -- Execute custom install script
+[3.301s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/config/config.lua
+[3.319s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/launch/cartographer.launch.py
+[3.341s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/rviz/cartographer.rviz
+[3.358s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/ament_index/resource_index/package_run_dependencies/tugbot_cartographer
+[3.384s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/ament_index/resource_index/parent_prefix_path/tugbot_cartographer
+[3.407s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/environment/ament_prefix_path.sh
+[3.419s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/environment/ament_prefix_path.dsv
+[3.435s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/environment/path.sh
+[3.452s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/environment/path.dsv
+[3.468s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/local_setup.bash
+[3.490s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/local_setup.sh
+[3.511s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/local_setup.zsh
+[3.530s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/local_setup.dsv
+[3.552s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/package.dsv
+[3.572s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/ament_index/resource_index/packages/tugbot_cartographer
+[3.596s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/cmake/tugbot_cartographerConfig.cmake
+[3.621s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/cmake/tugbot_cartographerConfig-version.cmake
+[3.639s] -- Symlinking: /home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/package.xml
+[3.667s] Invoked command in '/home/soda/tugbot_ws/build/tugbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_cartographer

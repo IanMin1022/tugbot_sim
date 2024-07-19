@@ -1,0 +1,17 @@
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo//launch/tugbot_world.launch.py
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/ament_index/resource_index/package_run_dependencies/tugbot_gazebo
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/ament_index/resource_index/parent_prefix_path/tugbot_gazebo
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/environment/ament_prefix_path.sh
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/environment/ament_prefix_path.dsv
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/environment/path.sh
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/environment/path.dsv
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/local_setup.bash
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/local_setup.sh
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/local_setup.zsh
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/local_setup.dsv
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/package.dsv
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/ament_index/resource_index/packages/tugbot_gazebo
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/cmake/tugbot_gazeboConfig.cmake
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/cmake/tugbot_gazeboConfig-version.cmake
+/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/package.xml

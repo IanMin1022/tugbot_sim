@@ -1,0 +1,9 @@
+/home/soda/tugbot_ws/build/tugbot_gazebo/CMakeFiles/uninstall.dir
+/home/soda/tugbot_ws/build/tugbot_gazebo/CMakeFiles/tugbot_gazebo_uninstall.dir
+/home/soda/tugbot_ws/build/tugbot_gazebo/CMakeFiles/test.dir
+/home/soda/tugbot_ws/build/tugbot_gazebo/CMakeFiles/edit_cache.dir
+/home/soda/tugbot_ws/build/tugbot_gazebo/CMakeFiles/rebuild_cache.dir
+/home/soda/tugbot_ws/build/tugbot_gazebo/CMakeFiles/list_install_components.dir
+/home/soda/tugbot_ws/build/tugbot_gazebo/CMakeFiles/install.dir
+/home/soda/tugbot_ws/build/tugbot_gazebo/CMakeFiles/install/local.dir
+/home/soda/tugbot_ws/build/tugbot_gazebo/CMakeFiles/install/strip.dir

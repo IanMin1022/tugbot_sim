@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="tugbot" xmlns:xacro="https://ros.org/wiki/xacro">
+
+  <!-- BASE LINK -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="-0.1 0 0.1" rpy="0 0 0"/>
+      <mass value="46.2"/>
+      <inertia ixx="1.55925" ixy="0" ixz="0" iyy="1.55925" iyz="0" izz="1.55925"/>
+    </inertial>
+    <collision name="base_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://tugbot_description/meshes/base/tugbot_simp.stl"/>
+      </geometry>
+    </collision>
+    <visual name="base_link_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://tugbot_description/meshes/base/tugbot_simp.dae"/>
+      </geometry>
+    </visual>
+    <visual name="movai_logo_visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://tugbot_description/meshes/base/movai_logo.dae"/>
+      </geometry>
+    </visual>
+    <visual name="light_link_visual">
+      <origin xyz="-0.1 0 0.1945" rpy="0 1.57079632679 0"/>
+      <geometry>
+        <mesh filename="package://tugbot_description/meshes/light_link/light_led.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+      <material name="light_link_material">
+        <color rgba="0.0 0.0 0 1"/>
+      </material>
+    </visual>
+    <visual name="warnign_light_visual">
+      <origin xyz="-0.099 0 0.195" rpy="0 1.57079632679 0"/>
+      <geometry>
+        <mesh filename="package://tugbot_description/meshes/light_link/light.stl" scale="1.02 1.02 1.02"/>
+      </geometry>
+      <material name="warning_light_material">
+        <color rgba="1 0.5 0 0.5"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- WARNING LIGHT LINK -->
+  <link name="warnign_light">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="0.000016875" ixy="0" ixz="0" iyy="0.00000001" iyz="0" izz="0.000016875"/>
+    </inertial>
+    <visual name="warnign_light_visual">
+      <origin xyz="-0.185 0 0.46" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.1"/>
+      </geometry>
+      <material name="warning_light_material">
+        <color rgba="1 0.5 0 0.5"/>
+      </material>
+    </visual>
+  </link>
+  <joint name="warnign_light_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="warnign_light"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="1000" velocity="20.0"/>
+  </joint>
+
+  <!-- SCAN LINK -->
+  <link name="tugbot/scan_omni/scan_omni">
+    <visual name="velodyne_base">
+      <origin xyz="0 0 -0.035" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.0015"/>
+      </geometry>
+    </visual>
+    <visual name="velodyne_suport_1">
+      <origin xyz="-0.035 0.035 -0.08" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.005" length="0.09"/>
+      </geometry>
+    </visual>
+    <visual name="velodyne_suport_2">
+      <origin xyz="-0.035 -0.035 -0.08" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.005" length="0.09"/>
+      </geometry>
+    </visual>
+    <visual name="velodyne_suport_3">
+      <origin xyz="0.0495 0 -0.08" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.005" length="0.09"/>
+      </geometry>
+    </visual>
+    <visual name="velodyne_base_link_visual_base">
+      <origin xyz="0 0 -0.035" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://tugbot_description/meshes/VLP16_base_1.dae" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+    <visual name="velodyne_base_link_visual_sensor">
+        <origin xyz="0 0 -0.035" rpy="0 0 0"/>
+        <geometry>
+            <mesh filename="package://tugbot_description/meshes/VLP16_base_2.dae" scale="1.0 1.0 1.0"/>
+        </geometry>
+    </visual>
+    <visual name="base_link_velodyne_visual_scan">
+      <origin xyz="0 0 -0.035" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://tugbot_description/meshes/VLP16_scan.dae" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+  <joint name="scan_omni_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="tugbot/scan_omni/scan_omni"/>
+    <origin xyz="-0.1855 0.0 0.5318" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Gripper Link -->
+  <link name="gripper">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1"/>
+      <inertia ixx="0.001666667" ixy="0" ixz="0" iyy="0.001666667" iyz="0" izz="0.001666667"/>
+    </inertial>
+    <collision name="gripper_collision">
+      <origin xyz="-0.35 0 0.1" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.15 0.1 0.1"/>
+      </geometry>
+    </collision>
+    <visual name="gripper_visual">
+      <origin xyz="-0.35 0 0.1" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://tugbot_description/meshes/gripper2/gripper2.dae" scale="1 1 1"/>
+      </geometry>
+    </visual>
+  </link>
+  <joint name="gripper_joint" type="revolute">
+    <origin xyz="0.35 0 0.09" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="gripper"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.7" upper="0.7" effort="4" velocity="0.5"/>
+    <dynamics friction="0.5"/>
+  </joint>
+
+  <!-- Gripper Hand Link -->
+  <link name="gripper_hand">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.2"/>
+      <inertia ixx="0.000016" ixy="0" ixz="0" iyy="0.000016" iyz="0" izz="0.000016"/>
+    </inertial>
+    <collision name="gripper_hand_collision">
+      <origin xyz="-0.463 0 0.1" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.04 0.1 0.017"/>
+      </geometry>
+    </collision>
+    <visual name="gripper_hand_visual">
+      <origin xyz="-0.463 0 0.1" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://tugbot_description/meshes/gripper2/gripper_hand.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="">
+        <color rgba="0.1 0.1 0.1 1"/>
+      </material>
+    </visual>
+    <!-- Additional Collisions -->
+    <collision name="gripper_hand_sideL_collision">
+      <origin xyz="0 0.08 0.03" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.01 0.05 0.07"/>
+      </geometry>
+    </collision>
+    <collision name="gripper_hand_sideL_slide_collision">
+      <origin xyz="0 0.055 0.03" rpy="0.9 0 0"/>
+      <geometry>
+        <box size="0.01 0.055 0.04"/>
+      </geometry>
+    </collision>
+    <collision name="gripper_hand_sideR_collision">
+      <origin xyz="0 -0.08 0.03" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.01 0.05 0.07"/>
+      </geometry>
+    </collision>
+    <collision name="gripper_hand_sideR_slide_collision">
+      <origin xyz="0 -0.055 0.03" rpy="-0.9 0 0"/>
+      <geometry>
+        <box size="0.01 0.055 0.04"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="gripper_hand_joint" type="revolute">
+    <origin xyz="0.2 0 0" rpy="0 0 0"/>
+    <parent link="gripper"/>
+    <child link="gripper_hand"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-0.35" upper="0.1" effort="100" velocity="0.5"/>
+  </joint>
+
+  <!-- Caster Wheel Link -->
+  <link name="wheel_front">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="0.0000175" ixy="0" ixz="0" iyy="0.0000175" iyz="0" izz="0.0000175"/>
+    </inertial>
+    <collision name="wheel_front_collision">
+      <origin xyz="0.145 0 0.0345" rpy="1.570796327 0 0"/>
+      <geometry>
+        <sphere radius="0.025"/>
+      </geometry>
+    </collision>
+    <visual name="wheel_front_visual">
+      <origin xyz="0.145 0 0.0345" rpy="1.570796327 0 0"/>      
+      <geometry>
+        <sphere radius="0.025"/>
+      </geometry>
+      <material name="">
+        <color rgba="0.5 0.5 0.5 1"/>
+      </material>
+    </visual>
+  </link>
+  <joint name="wheel_front_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="wheel_front"/>
+    <dynamics damping="10"/>
+  </joint>
+
+  <!-- Left Wheel Link -->
+  <link name="wheel_left">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="0.0000175" ixy="0" ixz="0" iyy="0.0000175" iyz="0" izz="0.00003125"/>
+    </inertial>
+    <collision name="wheel_left_collision">
+      <origin xyz="0 0.257 0.195" rpy="-1.570796327 0 0"/>
+      <geometry>
+        <cylinder radius="0.195" length="0.05"/>
+      </geometry>
+    </collision>
+    <visual name="wheel_left_visual">
+      <origin xyz="0 0.257 0.195" rpy="-1.570796327 0 0"/>
+      <geometry>
+        <mesh filename="package://tugbot_description/meshes/wheel/wheel.dae" scale="0.98 0.98 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+  <joint name="wheel_left_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="wheel_left"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="9.6" velocity="1.0"/>
+    <dynamics damping="3.0" friction="0.5"/>
+  </joint>
+
+  <!-- Right Wheel Link -->
+  <link name="wheel_right">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="0.0000175" ixy="0" ixz="0" iyy="0.0000175" iyz="0" izz="0.00003125"/>
+    </inertial>
+    <collision name="wheel_right_collision">
+      <origin xyz="0 -0.257 0.195" rpy="1.570796327 0 0"/>
+      <geometry>
+        <cylinder radius="0.195" length="0.05"/>
+      </geometry>
+    </collision>
+    <visual name="wheel_right_visual">
+      <origin xyz="0 -0.257 0.195" rpy="1.570796327 0 0"/>
+      <geometry>
+        <mesh filename="package://tugbot_description/meshes/wheel/wheel.dae" scale="0.98 0.98 1.0"/>
+      </geometry>
+    </visual>
+  </link>
+  <joint name="wheel_right_joint" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="wheel_right"/>
+    <axis xyz="0 0 -1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="9.6" velocity="1.0"/>
+    <dynamics damping="3.0" friction="0.5"/>
+  </joint>
+
+
+</robot>

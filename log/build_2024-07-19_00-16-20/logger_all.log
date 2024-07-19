@@ -1,0 +1,398 @@
+[0.210s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.210s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb4bb6e90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb4da4a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb4da4a60>>)
+[0.752s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.753s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/soda/tugbot_ws'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_pkg'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['colcon_meta']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'colcon_meta'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extensions ['ros']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/rf2o_laser_odometry) by extension 'ros'
+[0.808s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_cartographer) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_cartographer) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_cartographer) by extensions ['colcon_pkg']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_cartographer) by extension 'colcon_pkg'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_cartographer) by extensions ['colcon_meta']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_cartographer) by extension 'colcon_meta'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_cartographer) by extensions ['ros']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_cartographer) by extension 'ros'
+[0.810s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tugbot_cartographer' with type 'ros.ament_cmake' and name 'tugbot_cartographer'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_description) by extension 'ignore'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_description) by extension 'ignore_ament_install'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_description) by extensions ['colcon_pkg']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_description) by extension 'colcon_pkg'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_description) by extensions ['colcon_meta']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_description) by extension 'colcon_meta'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_description) by extensions ['ros']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_description) by extension 'ros'
+[0.812s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tugbot_description' with type 'ros.ament_cmake' and name 'tugbot_description'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_gazebo) by extension 'ignore'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_gazebo) by extension 'ignore_ament_install'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_gazebo) by extensions ['colcon_pkg']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_gazebo) by extension 'colcon_pkg'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_gazebo) by extensions ['colcon_meta']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_gazebo) by extension 'colcon_meta'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_gazebo) by extensions ['ros']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_gazebo) by extension 'ros'
+[0.814s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tugbot_gazebo' with type 'ros.ament_cmake' and name 'tugbot_gazebo'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_navigation) by extension 'ignore'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_navigation) by extension 'ignore_ament_install'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_navigation) by extensions ['colcon_pkg']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_navigation) by extension 'colcon_pkg'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_navigation) by extensions ['colcon_meta']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_navigation) by extension 'colcon_meta'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_navigation) by extensions ['ros']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/tugbot_navigation) by extension 'ros'
+[0.816s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tugbot_navigation' with type 'ros.ament_cmake' and name 'tugbot_navigation'
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.853s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.853s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.858s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 412 installed packages in /opt/ros/humble
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.945s] DEBUG:colcon.colcon_core.verb:Building package 'rf2o_laser_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soda/tugbot_ws/build/rf2o_laser_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soda/tugbot_ws/install/rf2o_laser_odometry', 'merge_install': False, 'path': '/home/soda/tugbot_ws/src/rf2o_laser_odometry', 'symlink_install': True, 'test_result_base': None}
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'tugbot_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'tugbot_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'tugbot_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'tugbot_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'tugbot_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'tugbot_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'tugbot_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'tugbot_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'tugbot_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.946s] DEBUG:colcon.colcon_core.verb:Building package 'tugbot_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soda/tugbot_ws/build/tugbot_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soda/tugbot_ws/install/tugbot_cartographer', 'merge_install': False, 'path': '/home/soda/tugbot_ws/src/tugbot_cartographer', 'symlink_install': True, 'test_result_base': None}
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'tugbot_description' build argument 'cmake_args' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'tugbot_description' build argument 'cmake_target' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'tugbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'tugbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'tugbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'tugbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'tugbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'tugbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'tugbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.947s] DEBUG:colcon.colcon_core.verb:Building package 'tugbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soda/tugbot_ws/build/tugbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soda/tugbot_ws/install/tugbot_description', 'merge_install': False, 'path': '/home/soda/tugbot_ws/src/tugbot_description', 'symlink_install': True, 'test_result_base': None}
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'tugbot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'tugbot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'tugbot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'tugbot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'tugbot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'tugbot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'tugbot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'tugbot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'tugbot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.948s] DEBUG:colcon.colcon_core.verb:Building package 'tugbot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soda/tugbot_ws/build/tugbot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soda/tugbot_ws/install/tugbot_gazebo', 'merge_install': False, 'path': '/home/soda/tugbot_ws/src/tugbot_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.949s] Level 5:colcon.colcon_core.verb:set package 'tugbot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.949s] Level 5:colcon.colcon_core.verb:set package 'tugbot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.949s] Level 5:colcon.colcon_core.verb:set package 'tugbot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.949s] Level 5:colcon.colcon_core.verb:set package 'tugbot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.949s] Level 5:colcon.colcon_core.verb:set package 'tugbot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.949s] Level 5:colcon.colcon_core.verb:set package 'tugbot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.949s] Level 5:colcon.colcon_core.verb:set package 'tugbot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.949s] Level 5:colcon.colcon_core.verb:set package 'tugbot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.949s] Level 5:colcon.colcon_core.verb:set package 'tugbot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.949s] DEBUG:colcon.colcon_core.verb:Building package 'tugbot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soda/tugbot_ws/build/tugbot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soda/tugbot_ws/install/tugbot_navigation', 'merge_install': False, 'path': '/home/soda/tugbot_ws/src/tugbot_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.950s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.954s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/soda/tugbot_ws/src/rf2o_laser_odometry' with build type 'ament_cmake'
+[0.954s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/soda/tugbot_ws/src/rf2o_laser_odometry'
+[0.958s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.959s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.959s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.964s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/soda/tugbot_ws/src/tugbot_cartographer' with build type 'ament_cmake'
+[0.965s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/soda/tugbot_ws/src/tugbot_cartographer'
+[0.965s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.965s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.970s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/soda/tugbot_ws/src/tugbot_description' with build type 'ament_cmake'
+[0.970s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/soda/tugbot_ws/src/tugbot_description'
+[0.971s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.971s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.976s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/soda/tugbot_ws/src/tugbot_gazebo' with build type 'ament_cmake'
+[0.976s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/soda/tugbot_ws/src/tugbot_gazebo'
+[0.977s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.977s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.981s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/soda/tugbot_ws/src/tugbot_navigation' with build type 'ament_cmake'
+[0.982s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/soda/tugbot_ws/src/tugbot_navigation'
+[0.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/rf2o_laser_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/rf2o_laser_odometry
+[1.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/tugbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_cartographer
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/tugbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_description
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/tugbot_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_gazebo
+[1.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/tugbot_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_navigation
+[4.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/tugbot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_navigation
+[4.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/tugbot_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_navigation -- -j8 -l8
+[4.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/tugbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_cartographer
+[4.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/tugbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_cartographer -- -j8 -l8
+[4.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/tugbot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_navigation -- -j8 -l8
+[4.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/tugbot_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_navigation
+[4.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/tugbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_cartographer -- -j8 -l8
+[4.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/tugbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_description
+[4.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/tugbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_description -- -j8 -l8
+[4.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/tugbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_cartographer
+[4.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/tugbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_description -- -j8 -l8
+[4.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/tugbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_description
+[4.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tugbot_cartographer)
+[4.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/tugbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_cartographer
+[4.636s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_cartographer' for CMake module files
+[4.638s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_cartographer' for CMake config files
+[4.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('tugbot_cartographer', 'cmake_prefix_path')
+[4.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/hook/cmake_prefix_path.ps1'
+[4.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/hook/cmake_prefix_path.dsv'
+[4.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/hook/cmake_prefix_path.sh'
+[4.647s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_cartographer/bin'
+[4.648s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_cartographer/lib/pkgconfig/tugbot_cartographer.pc'
+[4.649s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_cartographer/lib/python3.10/site-packages'
+[4.650s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_cartographer/bin'
+[4.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/package.ps1'
+[4.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/package.dsv'
+[4.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/package.sh'
+[4.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/package.bash'
+[4.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/package.zsh'
+[4.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/tugbot_ws/install/tugbot_cartographer/share/colcon-core/packages/tugbot_cartographer)
+[4.700s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tugbot_navigation)
+[4.701s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_navigation' for CMake module files
+[4.702s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_navigation' for CMake config files
+[4.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('tugbot_navigation', 'cmake_prefix_path')
+[4.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/hook/cmake_prefix_path.ps1'
+[4.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/hook/cmake_prefix_path.dsv'
+[4.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/hook/cmake_prefix_path.sh'
+[4.705s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_navigation/bin'
+[4.705s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_navigation/lib/pkgconfig/tugbot_navigation.pc'
+[4.706s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_navigation/lib/python3.10/site-packages'
+[4.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/tugbot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_navigation
+[4.708s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_navigation/bin'
+[4.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/package.ps1'
+[4.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/package.dsv'
+[4.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/package.sh'
+[4.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/package.bash'
+[4.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/package.zsh'
+[4.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/tugbot_ws/install/tugbot_navigation/share/colcon-core/packages/tugbot_navigation)
+[4.765s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tugbot_cartographer)
+[4.765s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_cartographer' for CMake module files
+[4.767s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_cartographer' for CMake config files
+[4.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('tugbot_cartographer', 'cmake_prefix_path')
+[4.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/hook/cmake_prefix_path.ps1'
+[4.769s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/hook/cmake_prefix_path.dsv'
+[4.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/hook/cmake_prefix_path.sh'
+[4.771s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_cartographer/bin'
+[4.771s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_cartographer/lib/pkgconfig/tugbot_cartographer.pc'
+[4.771s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_cartographer/lib/python3.10/site-packages'
+[4.772s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_cartographer/bin'
+[4.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/package.ps1'
+[4.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/package.dsv'
+[4.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/package.sh'
+[4.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/package.bash'
+[4.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_cartographer/share/tugbot_cartographer/package.zsh'
+[4.776s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/tugbot_ws/install/tugbot_cartographer/share/colcon-core/packages/tugbot_cartographer)
+[4.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tugbot_navigation)
+[4.778s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_navigation' for CMake module files
+[4.779s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_navigation' for CMake config files
+[4.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('tugbot_navigation', 'cmake_prefix_path')
+[4.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/hook/cmake_prefix_path.ps1'
+[4.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/hook/cmake_prefix_path.dsv'
+[4.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/hook/cmake_prefix_path.sh'
+[4.783s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_navigation/bin'
+[4.783s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_navigation/lib/pkgconfig/tugbot_navigation.pc'
+[4.783s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_navigation/lib/python3.10/site-packages'
+[4.784s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_navigation/bin'
+[4.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/package.ps1'
+[4.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/package.dsv'
+[4.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/package.sh'
+[4.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/package.bash'
+[4.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_navigation/share/tugbot_navigation/package.zsh'
+[4.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/tugbot_ws/install/tugbot_navigation/share/colcon-core/packages/tugbot_navigation)
+[5.057s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tugbot_description)
+[5.058s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_description' for CMake module files
+[5.059s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_description' for CMake config files
+[5.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('tugbot_description', 'cmake_prefix_path')
+[5.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/hook/cmake_prefix_path.ps1'
+[5.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/hook/cmake_prefix_path.dsv'
+[5.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/hook/cmake_prefix_path.sh'
+[5.064s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_description/bin'
+[5.065s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_description/lib/pkgconfig/tugbot_description.pc'
+[5.065s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_description/lib/python3.10/site-packages'
+[5.065s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_description/bin'
+[5.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/package.ps1'
+[5.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/package.dsv'
+[5.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/tugbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_description
+[5.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/package.sh'
+[5.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/package.bash'
+[5.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/package.zsh'
+[5.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/tugbot_ws/install/tugbot_description/share/colcon-core/packages/tugbot_description)
+[5.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tugbot_description)
+[5.119s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_description' for CMake module files
+[5.120s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_description' for CMake config files
+[5.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('tugbot_description', 'cmake_prefix_path')
+[5.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/hook/cmake_prefix_path.ps1'
+[5.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/hook/cmake_prefix_path.dsv'
+[5.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/hook/cmake_prefix_path.sh'
+[5.123s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_description/bin'
+[5.123s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_description/lib/pkgconfig/tugbot_description.pc'
+[5.124s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_description/lib/python3.10/site-packages'
+[5.124s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_description/bin'
+[5.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/package.ps1'
+[5.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/package.dsv'
+[5.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/package.sh'
+[5.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/package.bash'
+[5.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_description/share/tugbot_description/package.zsh'
+[5.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/tugbot_ws/install/tugbot_description/share/colcon-core/packages/tugbot_description)
+[5.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/tugbot_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_gazebo
+[5.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/tugbot_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_gazebo -- -j8 -l8
+[5.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/tugbot_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_gazebo -- -j8 -l8
+[5.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/tugbot_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_gazebo
+[6.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tugbot_gazebo)
+[6.131s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_gazebo' for CMake module files
+[6.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/tugbot_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_gazebo
+[6.133s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_gazebo' for CMake config files
+[6.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('tugbot_gazebo', 'cmake_prefix_path')
+[6.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/hook/cmake_prefix_path.ps1'
+[6.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/hook/cmake_prefix_path.dsv'
+[6.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/hook/cmake_prefix_path.sh'
+[6.136s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_gazebo/bin'
+[6.136s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_gazebo/lib/pkgconfig/tugbot_gazebo.pc'
+[6.136s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_gazebo/lib/python3.10/site-packages'
+[6.137s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_gazebo/bin'
+[6.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/package.ps1'
+[6.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/package.dsv'
+[6.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/package.sh'
+[6.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/package.bash'
+[6.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/package.zsh'
+[6.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/tugbot_ws/install/tugbot_gazebo/share/colcon-core/packages/tugbot_gazebo)
+[6.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tugbot_gazebo)
+[6.195s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_gazebo' for CMake module files
+[6.196s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_gazebo' for CMake config files
+[6.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('tugbot_gazebo', 'cmake_prefix_path')
+[6.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/hook/cmake_prefix_path.ps1'
+[6.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/hook/cmake_prefix_path.dsv'
+[6.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/hook/cmake_prefix_path.sh'
+[6.200s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_gazebo/bin'
+[6.201s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_gazebo/lib/pkgconfig/tugbot_gazebo.pc'
+[6.201s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_gazebo/lib/python3.10/site-packages'
+[6.202s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/tugbot_gazebo/bin'
+[6.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/package.ps1'
+[6.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/package.dsv'
+[6.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/package.sh'
+[6.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/package.bash'
+[6.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/tugbot_gazebo/share/tugbot_gazebo/package.zsh'
+[6.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/tugbot_ws/install/tugbot_gazebo/share/colcon-core/packages/tugbot_gazebo)
+[6.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/rf2o_laser_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/rf2o_laser_odometry
+[6.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/rf2o_laser_odometry -- -j8 -l8
+[54.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/rf2o_laser_odometry -- -j8 -l8
+[54.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soda/tugbot_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/rf2o_laser_odometry
+[55.038s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[55.039s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry' for CMake module files
+[55.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soda/tugbot_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/rf2o_laser_odometry
+[55.043s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry' for CMake config files
+[55.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[55.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[55.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[55.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[55.051s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry/lib'
+[55.052s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry/bin'
+[55.053s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[55.054s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[55.055s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry/bin'
+[55.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[55.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[55.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[55.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[55.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[55.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[55.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[55.131s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry' for CMake module files
+[55.132s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry' for CMake config files
+[55.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[55.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[55.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[55.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[55.137s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry/lib'
+[55.138s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry/bin'
+[55.138s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[55.139s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[55.140s] Level 1:colcon.colcon_core.environment:checking '/home/soda/tugbot_ws/install/rf2o_laser_odometry/bin'
+[55.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[55.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[55.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[55.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[55.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[55.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soda/tugbot_ws/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[55.151s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[55.153s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[55.153s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[55.154s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[55.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[55.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[55.181s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[55.218s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[55.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soda/tugbot_ws/install/local_setup.ps1'
+[55.224s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/soda/tugbot_ws/install/_local_setup_util_ps1.py'
+[55.229s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soda/tugbot_ws/install/setup.ps1'
+[55.232s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soda/tugbot_ws/install/local_setup.sh'
+[55.233s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/soda/tugbot_ws/install/_local_setup_util_sh.py'
+[55.235s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soda/tugbot_ws/install/setup.sh'
+[55.238s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soda/tugbot_ws/install/local_setup.bash'
+[55.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soda/tugbot_ws/install/setup.bash'
+[55.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soda/tugbot_ws/install/local_setup.zsh'
+[55.244s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soda/tugbot_ws/install/setup.zsh'

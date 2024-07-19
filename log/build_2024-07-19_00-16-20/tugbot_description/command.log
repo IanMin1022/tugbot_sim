@@ -1,0 +1,6 @@
+Invoking command in '/home/soda/tugbot_ws/build/tugbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_description
+Invoked command in '/home/soda/tugbot_ws/build/tugbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/soda/tugbot_ws/src/tugbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soda/tugbot_ws/install/tugbot_description
+Invoking command in '/home/soda/tugbot_ws/build/tugbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_description -- -j8 -l8
+Invoked command in '/home/soda/tugbot_ws/build/tugbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/soda/tugbot_ws/build/tugbot_description -- -j8 -l8
+Invoking command in '/home/soda/tugbot_ws/build/tugbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_description
+Invoked command in '/home/soda/tugbot_ws/build/tugbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/soda/tugbot_ws/build/tugbot_description
